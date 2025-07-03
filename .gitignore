@@ -1,0 +1,90 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go build cache
+.cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled Object files
+*.o
+*.a
+*.so
+
+# C++ compiled files
+*.obj
+*.lib
+*.pdb
+
+# PyTorch/libtorch related
+*.pt
+*.pth
+*.onnx
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build directories
+build/
+dist/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Debug files
+debug
+*.dSYM/
+
+# Coverage files
+coverage.txt
+coverage.html
+
+# Profiling files
+*.prof
+*.pprof
+
+# Main executable (project specific)
+go-torch-demo
+main
+
+# Any other executables
+demo
+test
+benchmark 
